@@ -1,4 +1,13 @@
 /*
    Import partials below
 */
-@import 'normalize';
+@import './normalize';
+@import './variables';
+
+// shared
+@import './components/shared/logo.scss';
+@import './components/shared/container.scss';
+
+// components
+@import './components/page-header/page-header.scss';
+@import './components/page-header/site-nav.scss';
